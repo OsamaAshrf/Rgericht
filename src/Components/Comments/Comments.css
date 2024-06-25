@@ -1,0 +1,28 @@
+.Comments-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+}
+.bioGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+@media (max-width:750px){
+    .Comments-container{
+        margin: 2rem 0rem;
+        padding: 2rem 1.5rem;
+    }
+}
+@media (max-width:570px){
+    .bioGrid{
+        grid-template-columns: 1fr;
+    }
+}

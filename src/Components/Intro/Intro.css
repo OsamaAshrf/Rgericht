@@ -1,0 +1,219 @@
+.Intro-container{
+    display:flex;
+    align-items:center;
+    padding: 2rem 1.5rem;
+    padding-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+
+
+}
+.Text-container{
+    color: antiquewhite;
+    width: 50%;
+    padding: 0rem 0;
+    animation: moveright 0.6s linear 1;
+    animation-delay: 1.3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveright{
+    0%{
+        translate: -30rem;
+        visibility: visible;
+    }
+    100%{
+        translate: 0;
+        visibility: visible;
+    }
+}
+.Text-container img{
+    width: 32px;
+    margin-top: 10px;
+}
+.Text-container h5{
+    font-family:'Cormorant Upright', Sans-serif;
+    color: #e7e7e7e8;
+    font-weight: bold;
+    margin-bottom: -16px;
+}
+.Text-container h1{
+    font-family:'Cormorant Upright', Sans-serif;
+    margin-bottom: 2rem;
+    font-size: 70px;
+    font-weight: bold;
+    width: 450px;
+    color: var(--color-theme-primary);
+}
+.Text-container label{
+    line-height: 19px;
+    margin-bottom: 2rem;
+    font-size: 12px;
+    color: rgb(155, 155, 155);
+    width: 78%;
+
+}
+.Text-container button{
+    font-size: small;
+    font-weight: bold;
+    font-family:'Cormorant Upright', Sans-serif;
+    padding: 8px 32px;
+    border: none;
+    background-color: var(--color-theme-primary);
+    display: block;
+    position: relative;
+    border: 1px solid var(--color-theme-primary);
+    transition: 0.45s ease-in-out;
+    z-index: 1;
+}
+.explore{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+
+.Text-container button:hover .explore{
+    color: var(--color-theme-primary);
+    background-color: none;
+    border-color: var(--color-theme-primary);
+}
+.Text-container button::before{
+    content:"";
+    position: absolute;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.45s ease-in-out;
+    transform-origin: 0 0;
+    transform: scaleX(0);
+}
+.Text-container button:hover::before{
+    transform: scaleX(1);
+}
+
+
+.Pic-container{
+    width: 50%; 
+    transition: 0.35s ease-in-out;
+    position: relative;
+    
+    animation: zoomin 0.6s linear 1;
+    animation-delay: 1.9s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+.trans{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: 0.45s ease-in-out;
+    transform-origin: 100% 100%;
+    transform: scaleX(1);
+    visibility: hidden;    
+}
+
+@keyframes zoomin{
+    0%{
+        transform: translateY(30rem);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+.Pic-container .img{
+    width: 100%;
+    transition: 0.35s ease-in-out;
+    z-index: -1;
+}
+
+.butCont{
+    position: absolute;
+    bottom: 4.5rem;
+}
+.slide1,.slide2{
+    border: none;
+    background-color: black;
+    color: var(--color-theme-primary);
+    padding: 10px 20px;
+    font-size: 14px;
+    position: relative;
+}
+.slide1:hover::before{
+    transform: scaleX(1);
+}
+.slide2:hover::before{
+    transform: scaleX(1);
+}
+.slide1::before,.slide2::before{
+    content:"";
+    position: absolute;
+    background-color: var(--color-theme-primary);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: 0.45s ease-in-out;
+    transform-origin: 0 0;
+    transform: scaleX(0);
+}
+.slide1::before{
+    transform-origin: 100% 100%;
+}
+
+@media (max-width:995px){
+    .Text-container h1{
+        width: 95%;
+    }
+}
+@media (max-width:770px){
+    .Text-container h1{
+        font-size: 40px;
+        width: 85%;
+    }
+    .Text-container label{
+        font-size: 10px;
+    }
+}
+@media (max-width:530px){
+    .Intro-container{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .Text-container{
+        width: 100%;
+        padding: 2.5rem 0;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Text-container h5{
+        margin-bottom: -10px;
+    }
+    .Text-container h1{
+        text-align: center;
+        font-size: 45px;
+        width: 100%;
+    }
+    .Text-container label{
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+    }
+    .Pic-container{
+        width: 80%;
+    }
+}
+

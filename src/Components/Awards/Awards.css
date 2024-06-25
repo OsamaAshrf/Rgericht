@@ -1,0 +1,48 @@
+.Awards-bg{
+    background: url("../src/assets/bg.png");
+    background-size:cover;
+}
+.Awards-container{
+    display: flex;
+    align-items: center;
+    padding: 7rem 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+}
+.AwardContain{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap:1rem;
+    row-gap:2.5rem;
+}
+.picdev{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+.Infodev{
+    width:50%;
+}
+
+@media (max-width:950px){
+    .AwardContain{grid-template-columns:1fr;}
+}
+@media (max-width:750px){
+    .Awards-container{
+        padding: 4rem 1.5rem;
+        align-items: start;
+    }
+}
+@media (max-width:570px){
+    .Awards-container{
+        padding: 3rem 1.5rem;
+        align-items: center;
+        flex-direction: column;
+    }
+    .picdev{width:65%;}
+    .Infodev{
+        width:95%;
+        margin-bottom: 3rem;
+    }
+}

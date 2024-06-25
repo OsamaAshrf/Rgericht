@@ -1,0 +1,54 @@
+.Table-container{
+    padding: 7rem 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+    
+}
+.Reserve{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-theme-primary);
+    padding: 2rem 1rem;
+    position: relative;
+}
+.booked{
+    color: var(--color-theme-primary);
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    transition: visibility 0.45s ease-in-out;
+    visibility: hidden;
+}
+.reserveBox{
+    background: transparent;
+    color: rgb(168, 168, 168);
+    padding: 0.75rem;
+    margin-bottom: 3rem;
+    font-size: 0.8rem;
+    border-color: rgb(92, 92, 92);
+}
+.inputContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5rem;
+    width: 100%;
+}
+.logo{
+    width: 7rem;
+    position: absolute;
+    top: -9rem;
+    right: -4rem;
+}
+
+@media (max-width:530px){
+    .inputContainer{
+        display:grid;
+        grid-template-columns: 1fr;
+    }   
+    .reserveBox{
+        margin-bottom: 2rem;
+    } 
+}
