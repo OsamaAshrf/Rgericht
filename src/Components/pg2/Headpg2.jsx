@@ -33,11 +33,11 @@ function Headpg2 (){
     return(
     <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
-            <a className="navbar-brand" href="#"><img className='logoimg' src="..\gericht\src\assets\gericht.png"></img></a>
+            <a className="navbar-brand" href="#"><img className='logoimg' src="..\Rgericht\public\assets\gericht.png"></img></a>
             <div id='navCollap' className="collapse navbar-collapse">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a href="/" className="nav-link">HOME</a>
+                        <a href="/Rgericht/" className="nav-link">HOME</a>
                     </li>
                     <li className="nav-item2">
                         <div className="nav-link">PAGES</div>
@@ -62,9 +62,9 @@ function Headpg2 (){
                 </div>
                 <div className='navbuttbg2 navbar-toggler'>
                     <div className='navbutt2'>
-                        <a href="/gericht/" className="nav-link">Home</a>
+                        <a href="/Rgericht/" className="nav-link">Home</a>
                         <div className='elem'>Pages</div>
-                        <a href="/gericht/about" className='elem isIn'>About Us</a>
+                        <a href="/Rgericht/about" className='elem isIn'>About Us</a>
                         <div className='elem'>Blogs</div>
                     </div>
                 </div>

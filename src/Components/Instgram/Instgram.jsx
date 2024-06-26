@@ -8,13 +8,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight,faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 function Instgram(){
     const myRef = useRef(null);
-    const Instpic = ["../../gericht/src/assets/inst4.jpg",
-    "../../gericht/src/assets/inst2.jpg",
-    "../../gericht/src/assets/inst3.jpg",
-    "../../gericht/src/assets/inst1.jpg",
-    "../../gericht/src/assets/inst5.jpg",
-    "../../gericht/src/assets/inst6.jpg",
-    "../../gericht/src/assets/inst7.jpg"];
+    const Instpic = ["../../Rgericht/public/assets/inst4.jpg",
+    "../../Rgericht/public/assets/inst2.jpg",
+    "../../Rgericht/public/assets/inst3.jpg",
+    "../../Rgericht/public/assets/inst1.jpg",
+    "../../Rgericht/public/assets/inst5.jpg",
+    "../../Rgericht/public/assets/inst6.jpg",
+    "../../Rgericht/public/assets/inst7.jpg"];
     const Instapics = Instpic.map((elem,index)=>
     <div key={index} style={{border:"1px solid rgb(228, 209, 102)"}}>
         <img className='instimg' src={elem}/>

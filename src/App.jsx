@@ -9,7 +9,7 @@ import { Routes } from 'react-router-dom';
 function App() {
 
   return(
-    <BrowserRouter basename='/gericht/'>
+    <BrowserRouter basename='/Rgericht/'>
       <Routes>
         <Route path='/index' element={<App1/>}/>
         <Route path='/' element={<App1/>}/>

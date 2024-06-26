@@ -39,7 +39,7 @@ function Footer(){
             <div className="contactdev2">
                 <h2 className='mb-3'>GERICHT</h2>
                 <p className='mb-2'>The best way to find yourself is to lose yourself in the service of others</p>
-                <img className='mb-2' src="../../gericht/src/assets/spoon.png"></img>
+                <img className='mb-2' src="../../Rgericht/public/assets/spoon.png"></img>
                 <div style={{display:"flex",color:"rgb(187, 187, 187)"}}>
                     <FontAwesomeIcon icon={faFacebookF} size='xl' className='me-3 social'/>
                     <FontAwesomeIcon icon={faTwitter} size='xl'className='me-3 social'/>

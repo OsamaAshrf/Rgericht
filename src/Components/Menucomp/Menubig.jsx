@@ -24,7 +24,7 @@ function Menubig(){
         <div className='triplecont'>
             <Menu className="menudev" items={menu1Arr} catagory="Wine & Beer"/>
             <div style={{display:"flex",flex:"1"}}>
-                <img src="../../gericht/src/assets/menu.png" style={{width:"100%",objectFit:"cover"}} className="mb-5"/>
+                <img src="../../Rgericht/public/assets/menu.png" style={{width:"100%",objectFit:"cover"}} className="mb-5"/>
             </div>
             <Menu items={menu1Arr}  catagory="Wine & Beer"/>
         </div>

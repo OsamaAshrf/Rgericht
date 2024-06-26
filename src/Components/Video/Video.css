@@ -6,7 +6,7 @@
     color: white;
     background-color: brown;
     position: relative;
-    background: url(../../gericht/src/assets/videopic.png);
+    background: url(../../Rgericht/public/assets/videopic.png);
     background-size:cover;
     background-color: aquamarine;
 }

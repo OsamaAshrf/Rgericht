@@ -12,30 +12,30 @@ function AboutUs2(){
                 totam quaerat beatae assumenda molestias voluptates impedit laborum libero porro excepturi.
                 </p>
                 <div className='divIm'>
-                    <img src="../../gericht/src/assets/p.png" style={{width:"100%"}}></img>
+                    <img src="../../Rgericht/public/assets/p.png" style={{width:"100%"}}></img>
                 </div>
             </div>
             <div className='SecR'>
                 <div className='divIm'>
-                    <img src="../../gericht/src/assets/pg21.png" className='imgR mb-4' style={{width:"100%"}}></img>
+                    <img src="../../Rgericht/public/assets/pg21.png" className='imgR mb-4' style={{width:"100%"}}></img>
                 </div>
                 <h5 style={{color:"var(--color-theme-primary)"}} className='overYears'>Over The Years</h5>
                 <div className='staticsDiv'>
                     <div className='statics'>
                         <h5>30+</h5>
-                        <img className='mb-3' src="../../gericht/src/assets/spoon.png" style={{width:"30px"}}/>
+                        <img className='mb-3' src="../../Rgericht/public/assets/spoon.png" style={{width:"30px"}}/>
                         <p style={{width:"50px"}}>Breakfast Options</p>
                     </div>
                     <div className='bord'></div>
                     <div className='statics'>
                         <h5>50+</h5>
-                        <img src="../../gericht/src/assets/spoon.png" style={{width:"30px"}}/>
+                        <img src="../../Rgericht/public/assets/spoon.png" style={{width:"30px"}}/>
                         <p style={{width:"50px"}}>Dinner Options</p>
                     </div>
                     <div className='bord'></div>
                     <div className='statics'>
                         <h5>8+</h5>
-                        <img src="../../gericht/src/assets/spoon.png" style={{width:"30px"}}/>
+                        <img src="../../Rgericht/public/assets/spoon.png" style={{width:"30px"}}/>
                         <p style={{width:"50px"}}>New Locations</p>
                     </div>
                 </div>
