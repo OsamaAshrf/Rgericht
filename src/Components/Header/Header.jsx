@@ -32,7 +32,7 @@ function Header (){
     return(
     <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
-            <a className="navbar-brand" href="#"><img className='logoimg' src="..\src\assets\gericht.png"></img></a>
+            <a className="navbar-brand" href="#"><img className='logoimg' src="..\gericht\src\assets\gericht.png"></img></a>
             <div id='navCollap' className="collapse navbar-collapse">
                 <ul className="navbar-nav">
                     <li className="nav-item">
@@ -70,13 +70,13 @@ function Header (){
                 </div>
                 <div className='navbuttbg navbar-toggler'>
                     <div className='headtit'>
-                        <a className="navbar-brand" href="#"><img className='logoimg' src="..\src\assets\gericht.png"></img></a>
+                        <a className="navbar-brand" href="#"><img className='logoimg' src="..\gericht\src\assets\gericht.png"></img></a>
                         <div className='clos' onClick={clos}><FontAwesomeIcon icon={faX} /></div>
                     </div>
                     <div className='navbutt'>
-                        <a href='/' className="elem mb-3 isIn" style={{transition:"1.35s ease"}}>Home</a>
+                        <a href='/gericht/' className="elem mb-3 isIn" style={{transition:"1.35s ease"}}>Home</a>
                         <div className='elem mb-3' style={{transition:"1.75s ease"}}>Pages <FontAwesomeIcon icon={faChevronRight} size="xs"></FontAwesomeIcon></div>
-                        <a href='/about' className='nav-link mb-3' style={{transition:"1.95s ease"}}>About Us</a>
+                        <a href='/gericht/about' className='nav-link mb-3' style={{transition:"1.95s ease"}}>About Us</a>
                         <div className='elem' style={{transition:"2.11s ease"}}>Blogs</div>
                     </div>
                 </div>

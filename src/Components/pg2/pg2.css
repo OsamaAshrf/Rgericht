@@ -1,6 +1,6 @@
 .bannerbg{
     background:
-     url('../../src/assets/banner.png') center;
+     url('../../gericht/src/assets/banner.png') center;
     display: flex;
     align-items: center;
     justify-content: center;

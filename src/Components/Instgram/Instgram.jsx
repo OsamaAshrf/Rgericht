@@ -8,13 +8,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight,faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 function Instgram(){
     const myRef = useRef(null);
-    const Instpic = ["../../src/assets/inst4.jpg",
-    "../../src/assets/inst2.jpg",
-    "../../src/assets/inst3.jpg",
-    "../../src/assets/inst1.jpg",
-    "../../src/assets/inst5.jpg",
-    "../../src/assets/inst6.jpg",
-    "../../src/assets/inst7.jpg"];
+    const Instpic = ["../../gericht/src/assets/inst4.jpg",
+    "../../gericht/src/assets/inst2.jpg",
+    "../../gericht/src/assets/inst3.jpg",
+    "../../gericht/src/assets/inst1.jpg",
+    "../../gericht/src/assets/inst5.jpg",
+    "../../gericht/src/assets/inst6.jpg",
+    "../../gericht/src/assets/inst7.jpg"];
     const Instapics = Instpic.map((elem,index)=>
     <div key={index} style={{border:"1px solid rgb(228, 209, 102)"}}>
         <img className='instimg' src={elem}/>
@@ -22,7 +22,6 @@ function Instgram(){
     ); 
     
     useEffect(()=>{
-        console.log(myRef.current);
         myRef.current.addEventListener('keydown', disableKeyboardScroll);
         myRef.current.addEventListener('click', disableKeyboardScroll);
     },[])

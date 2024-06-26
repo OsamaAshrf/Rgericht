@@ -9,13 +9,12 @@ import { Routes } from 'react-router-dom';
 function App() {
 
   return(
-    <BrowserRouter>
+    <BrowserRouter basename='/gericht/'>
       <Routes>
         <Route path='/index' element={<App1/>}/>
         <Route path='/' element={<App1/>}/>
         <Route path='/about' element={<App2/>}/>
       </Routes>
-      
     </BrowserRouter>
   );    
 }

@@ -8,19 +8,19 @@ function Comments(){
     <div className="Comments-container" id="test">
         <Heading head1="Testimony" head2="Happy Customers" dirc="center"/>
         <div className="bioGrid">
-            <Bio pic="../../src/assets/prof1.png"
+            <Bio pic="../../gericht/src/assets/prof1.png"
             comment="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas maiores pariatur nulla eum sequi sed. Quod libero, sint, sunt odio ut saepe, doloribus at iusto eligendi labore distinctio inventore consequatur."
             name="Wade Warren"
             jop="Sommelier"/>
-            <Bio pic="../../src/assets/prof2.png"
+            <Bio pic="../../gericht/src/assets/prof2.png"
             comment="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas maiores pariatur nulla eum sequi sed. Quod libero, sint, sunt odio ut saepe, doloribus at iusto eligendi labore distinctio inventore consequatur."
             name="Wade Warren"
             jop="Sommelier"/>
-            <Bio pic="../../src/assets/prof3.png"
+            <Bio pic="../../gericht/src/assets/prof3.png"
             comment="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas maiores pariatur nulla eum sequi sed. Quod libero, sint, sunt odio ut saepe, doloribus at iusto eligendi labore distinctio inventore consequatur."
             name="Wade Warren"
             jop="Sommelier"/>
-            <Bio pic="../../src/assets/prof4.png"
+            <Bio pic="../../gericht/src/assets/prof4.png"
             comment="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas maiores pariatur nulla eum sequi sed. Quod libero, sint, sunt odio ut saepe, doloribus at iusto eligendi labore distinctio inventore consequatur."
             name="Wade Warren"
             jop="Sommelier"/>

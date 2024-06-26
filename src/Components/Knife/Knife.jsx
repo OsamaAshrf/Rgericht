@@ -7,12 +7,12 @@ function Knifedev(props){
     return(<>
         <div className="Knifedev-container" style={{alignItems:`${display}`}}>
             <h2>{props.title}</h2>
-            <img src="..\src\assets\spoon.png" className='img' 
+            <img src="..\gericht\src\assets\spoon.png" className='img' 
             style={{transform:`rotate(${deg})`,
             width:"2rem",
             marginTop:"-8px"}}/>
             <p style={{textAlign:`${display}`}} className="mt-4 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates ex eligendi fugit iusto consequatur hic, tempora harum qui! Placeat a asperiores.</p>
-            <a href='/about'><button className="buttonReuse">Know More</button></a>
+            <a href='/gericht/about'><button className="buttonReuse">Know More</button></a>
         </div>
     </>);
 } export default Knifedev

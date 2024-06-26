@@ -7,7 +7,7 @@ function Heading(props){
     return(
     <div className="Head" style={{alignItems:`${dirc}`}}>
         <h5>{head1}</h5>
-        <img style={{width:"2rem"}} src="../../src/assets/spoon.png" ></img>
+        <img style={{width:"2rem"}} src="../../gericht/src/assets/spoon.png" ></img>
         <h2>{head2}</h2>
     </div>);
 } export default Heading

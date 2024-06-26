@@ -1,10 +1,10 @@
 .Knife-container2{
     width: 100%;
-    background: url("../src/assets/bg.png");
+    background: url("../gericht/src/assets/bg.png");
     background-size:cover;
 }
 .Knife-container{
-    background: url("../src/assets/G.png") center;
+    background: url("../gericht/src/assets/G.png") center;
     background-repeat: no-repeat;
     background-size:28%;
     display: flex;

@@ -10,14 +10,14 @@ function Awards(){
             <div className="Infodev">
                 <Heading head1="Awards & Recognotion" head2="Our Laurels" dirc=""/>
                 <div className='AwardContain'>
-                    <Laurel img="../../src/assets/award02.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
-                    <Laurel img="../../src/assets/award01.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
-                    <Laurel img="../../src/assets/award05.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
-                    <Laurel img="../../src/assets/award03.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
+                    <Laurel img="../../gericht/src/assets/award02.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
+                    <Laurel img="../../gericht/src/assets/award01.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
+                    <Laurel img="../../gericht/src/assets/award05.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
+                    <Laurel img="../../gericht/src/assets/award03.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
                 </div>
             </div>
             <div className="picdev">
-                <img src="../../src/assets/laurels.png" style={{width:"80%"}}/>
+                <img src="../../gericht/src/assets/laurels.png" style={{width:"80%"}}/>
             </div>
         </div>
     </div>);

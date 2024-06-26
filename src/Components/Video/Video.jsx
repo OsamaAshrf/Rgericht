@@ -18,7 +18,7 @@ function Video(){
 
     return(
     <div className="Video-container">
-        <video ref={vidRef} src="../../src/assets/video.mp4" loop controls={false}></video>
+        <video ref={vidRef} src="../../gericht/src/assets/video.mp4" loop controls={false}></video>
         <div className='cirdev'>
             <div onClick={handleClic} className='circle'>
                 {playV ? <div className='play'>| |</div>:<div className='triangle'></div>}
