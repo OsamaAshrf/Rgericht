@@ -7,7 +7,7 @@ function Knifedev(props){
     return(<>
         <div className="Knifedev-container" style={{alignItems:`${display}`}}>
             <h2>{props.title}</h2>
-            <img src="..\Rgericht/public\assets\spoon.png" className='img' 
+            <img src="\Rgericht\assets\spoon.png" className='img' 
             style={{transform:`rotate(${deg})`,
             width:"2rem",
             marginTop:"-8px"}}/>
