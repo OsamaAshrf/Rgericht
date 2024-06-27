@@ -7,14 +7,14 @@ function Chef(){
     <div className='Chef-bg' id="chef">
     <div className="Chef-container">
         <div className="chefPicdev">
-            <img src="../../Rgericht/public/assets/chef.png" style={{width:"100%"}}/>
+            <img src="/Rgericht/assets/chef.png" style={{width:"100%"}}/>
         </div>
         <div className="chefInfo">
             <Heading head1="Chef's World" head2="What We Believe In"/>
             <p className="mb-5" style={{color:"rgb(168, 168, 168)",
                 fontSize:"0.8rem",
                 }}>
-                    <span><img className='me-3 mb-2 mt-0' src="../../Rgericht/public/assets/quote.png" style={{width:"2.3rem"}}/></span>
+                    <span><img className='me-3 mb-2 mt-0' src="/Rgericht/assets/quote.png" style={{width:"2.3rem"}}/></span>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Quas maiores pariatur nulla eum sequi sed. Quod libero,
                     sint, sunt odio ut saepe, doloribus at iusto eligendi
@@ -28,7 +28,7 @@ function Chef(){
                 }}>Kevin Luo</h3>
                 <p style={{color:"rgb(168, 168, 168)",fontSize:"0.8rem"}}>Chef & Founder</p>
             </div>
-            <img src="../../Rgericht/public/assets/sign.png" style={{width:"10rem"}}/>
+            <img src="/Rgericht/assets/sign.png" style={{width:"10rem"}}/>
         </div>
     </div>
     </div>);
