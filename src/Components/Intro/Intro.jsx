@@ -7,10 +7,10 @@ import { HashLink as Link } from 'react-router-hash-link';
 function Intro (){
 
     const Object = [
-        {title:"The Key To Fine Dining",src:"../Rgericht/public/assets/pic1.png"},
-        {title:"Reserve Your Table Today",src:"../Rgericht/public/assets/pic2.png"},
-        {title:"Food That Surprize You",src:"../Rgericht/public/assets/pic3.png"},
-        {title:"Love The Original Taste",src:"../Rgericht/public/assets/pic4.png"}
+        {title:"The Key To Fine Dining",src:"/Rgericht/assets/pic1.png"},
+        {title:"Reserve Your Table Today",src:"/Rgericht/assets/pic2.png"},
+        {title:"Food That Surprize You",src:"/Rgericht/assets/pic3.png"},
+        {title:"Love The Original Taste",src:"/Rgericht/assets/pic4.png"}
     ];
 
     function rerander(){
@@ -69,7 +69,7 @@ function Intro (){
         
         <div id="tex" className="Text-container">
             <h5>Chase The New Flavour</h5>
-            <img src="..\Rgericht\public\assets\spoon.png" className='img'></img>
+            <img src="\Rgericht\assets\spoon.png" className='img'></img>
             <h1 id="title">{Object[0].title}</h1>
             <label>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque voluptates dolore quas sed eligendi consequatur tempore corporis repellendus. Enim temporibus expedita.</label>
             <button><Link to="#menu" className='explore'>Explore Menu <FontAwesomeIcon icon={faArrowRight} size="2xs" className='ms-2'/></Link></button>
