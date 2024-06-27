@@ -70,7 +70,7 @@ function Header (){
                 </div>
                 <div className='navbuttbg navbar-toggler'>
                     <div className='headtit'>
-                        <a className="navbar-brand" href="#"><img className='logoimg' src="..\Rgericht\public\assets\gericht.png"></img></a>
+                        <a className="navbar-brand" href="#"><img className='logoimg' src="\Rgericht\assets\gericht.png"></img></a>
                         <div className='clos' onClick={clos}><FontAwesomeIcon icon={faX} /></div>
                     </div>
                     <div className='navbutt'>
