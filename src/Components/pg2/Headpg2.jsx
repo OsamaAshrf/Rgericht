@@ -33,7 +33,7 @@ function Headpg2 (){
     return(
     <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
-            <a className="navbar-brand" href="#"><img className='logoimg' src="..\Rgericht\public\assets\gericht.png"></img></a>
+            <a className="navbar-brand" href="#"><img className='logoimg' src="\Rgericht\assets\gericht.png"></img></a>
             <div id='navCollap' className="collapse navbar-collapse">
                 <ul className="navbar-nav">
                     <li className="nav-item">
