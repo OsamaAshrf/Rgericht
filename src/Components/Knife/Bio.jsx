@@ -9,7 +9,7 @@ function Bio(props){
     return(
     <div className="Bio">
         <div style={{position:"relative" ,width:"80px"}}>
-            <img src="../../Rgericht/public/assets/quote.png" style={{width:"2.5rem", position:"absolute",top:"3.8rem",right:"-1rem"}}/>
+            <img src="/Rgericht/assets/quote.png" style={{width:"2.5rem", position:"absolute",top:"3.8rem",right:"-1rem"}}/>
             <img src={pic} style={{width:"100%"}}></img>
         </div>
         <div className='comment-container'>
