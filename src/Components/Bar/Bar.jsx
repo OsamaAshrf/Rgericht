@@ -2,9 +2,9 @@ import { useState } from 'react';
 import './Bar.css' ;
 
 function Bar(){
-    const backg = ["../../Rgericht/public/assets/beer.jpg",
-    "../../Rgericht/public/assets/beer2.png",
-    "../../Rgericht/public/assets/beer3.png"
+    const backg = ["/Rgericht/assets/beer.jpg",
+    "/Rgericht/assets/beer2.png",
+    "/Rgericht/assets/beer3.png"
     ];
     let i = "";
     function hoverHandle(event){
