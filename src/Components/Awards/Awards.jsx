@@ -10,14 +10,14 @@ function Awards(){
             <div className="Infodev">
                 <Heading head1="Awards & Recognotion" head2="Our Laurels" dirc=""/>
                 <div className='AwardContain'>
-                    <Laurel img="../../Rgericht/public/assets/award02.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
-                    <Laurel img="../../Rgericht/public/assets/award01.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
-                    <Laurel img="../../Rgericht/public/assets/award05.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
-                    <Laurel img="../../Rgericht/public/assets/award03.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
+                    <Laurel img="/Rgericht/assets/award02.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
+                    <Laurel img="/Rgericht/assets/award01.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
+                    <Laurel img="/Rgericht/assets/award05.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
+                    <Laurel img="/Rgericht/assets/award03.png" title="Bib Gourmond" text="Lorem ipsum dolor sit amet, consectetur"/>
                 </div>
             </div>
             <div className="picdev">
-                <img src="../../Rgericht/public/assets/laurels.png" style={{width:"80%"}}/>
+                <img src="/Rgericht/assets/laurels.png" style={{width:"80%"}}/>
             </div>
         </div>
     </div>);
